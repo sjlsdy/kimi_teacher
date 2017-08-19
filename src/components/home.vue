@@ -22,13 +22,27 @@
 					</ul>
 				</div>
 			</div>
-			<div class="paneBody">sdfssdfsdf<br />dsfdssdf<br />dsfsdfdf</div>
+			<div class="paneBody">
+				<div class="panel">
+					<div class="panelTitle">
+						班级学习课程
+						<span>更多</span>
+					</div>
+				</div>
+			</div>
 			</Col>
 			<Col span="12">
 			<div class="paneBody">
-				<i-circle :percent="80">
-					<span class="demo-i-circle-inner" style="font-size:24px">80%</span>
-				</i-circle>
+				<div class="panel">
+					<div class="panelTitle">
+						班级学习课程
+						<span class="more">更多</span>
+					</div>
+					<div class="panelCont">
+						<Button v-on:click="toggleChart">切换图表</Button>
+						<G2Nest :charData="serverData1" :id="'c1'" id="c1"></G2Nest>
+					</div>
+				</div>
 			</div>
 			<div class="paneBody">sdfsdf</div>
 			</Col>
@@ -37,11 +51,45 @@
 </template>
 
 <script>
+	import G2Nest from './G2Nest.vue';
 	export default {
-		name: 'hello',
+		components: {
+			G2Nest
+		},
 		data() {
 			return {
-				msg: 'Welcome to Your Vue.js App'
+				msg: 'Welcome to Your Vue.js App',
+				serverData1: [{
+						month: 'Jan',
+						temperature: 7.0
+					},
+					{
+						month: 'Feb',
+						temperature: 6.9
+					},
+					{
+						month: 'Mar',
+						temperature: 9.5
+					}
+				],
+				serverData2: [{
+						month: 'Jan',
+						temperature: 4.0
+					},
+					{
+						month: 'Feb',
+						temperature: 9.9
+					},
+					{
+						month: 'Mar',
+						temperature: 2.5
+					}
+				]
+			}
+		},
+		methods: {
+			toggleChart: function(event) {
+				this.serverData1 = this.serverData2;
 			}
 		}
 	}

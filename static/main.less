@@ -1,5 +1,120 @@
 html {
+    width: 100%;
+    height: 100%;
     body {
-        color: #42B983;
+        width: 100%;
+        height: 100%;
+        color: #333;
+        background: #f0f0f0;
+        .login {
+            margin-top: 60px;
+            background: #FFFFFF;
+            padding: 20px;
+            box-shadow: 0 0 10px #CCCCCC;
+        }
+        .mainBox {
+            width: 100%;
+            height: 100%;
+            .mainLeft {
+                position: relative;
+                z-index: 999;
+                float: left;
+                width: 140px;
+                height: 100%;
+                margin-left: -100%;
+                background: rgb(59, 84, 136);
+                color: #FFFFFF;
+                .userInfo {
+                    margin: 40px 0;
+                    text-align: center;
+                    img {
+                        border: #FFF 2px solid;
+                        border-radius: 1000px;
+                        display: block;
+                        width: 80px;
+                        height: 80px;
+                        margin: 0 auto;
+                    }
+                    h4 {
+                        font-size: 16px;
+                    }
+                }
+                .nav {
+                    li {
+                        font-size: 14px;
+                        line-height: 40px;
+                        margin-bottom: 10px;
+                        a {
+                            color: #FFFFFF;
+                            display: block;
+                            padding: 0 10%;
+                            border-left: rgb(59, 84, 136) 4px solid;
+                            i {
+                                margin-right: 10px;
+                            }
+                            &:hover,
+                            &.router-link-active {
+                                background: rgb(38, 58, 99);
+                                border-left: rgb(255, 217, 73) 4px solid;
+                            }
+                        }
+                    }
+                }
+            }
+            .mainRight {
+                float: left;
+                width: 100%;
+                height: 100%;
+                background: rgb(246, 247, 252);
+                .mainCont {
+                    padding: 60px 0 0 140px;
+                }
+            }
+            .mainTop {
+                height: 60px;
+                background: #FFFFFF;
+                box-shadow: 0 0 10px #CCCCCC;
+                position: fixed;
+                top: 0;
+                left: 140px;
+                right: 0;
+                z-index: 998;
+                .userInfo {
+                    border-top: rgb(59,84,136) 2px solid;
+                    float: right;
+                    margin-right: 20px;
+                    padding: 0 10px;
+                    line-height: 58px;
+                    span {
+                        margin: 0 10px;
+                        float: left;
+                    }
+                    img {
+                        display: block;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 1000px;
+                        margin-top: 9px;
+                    }
+                    h4 {
+                    }
+                    a {
+                    }
+                }
+            }
+        }
+        .panel {
+            .panelTitle {
+                border-bottom: #DDDDDD 1px solid;
+                line-height: 40px;
+                padding: 0 20px;
+                .more {
+                    float: right;
+                }
+            }
+            .panelCont {
+                
+            }
+        }
     }
 }
