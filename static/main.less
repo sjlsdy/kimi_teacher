@@ -5,6 +5,7 @@ html {
         width: 100%;
         height: 100%;
         color: #333;
+        line-height: 20px;
         background: #f0f0f0;
         .login {
             margin-top: 60px;
@@ -21,6 +22,8 @@ html {
                 float: left;
                 width: 140px;
                 height: 100%;
+                overflow: hidden;
+                overflow-y: auto;
                 margin-left: -100%;
                 background: rgb(59, 84, 136);
                 color: #FFFFFF;
@@ -65,6 +68,8 @@ html {
                 float: left;
                 width: 100%;
                 height: 100%;
+                overflow: hidden;
+                overflow-y: scroll;
                 background: rgb(246, 247, 252);
                 .mainCont {
                     padding: 60px 0 0 140px;
@@ -72,7 +77,7 @@ html {
             }
             .mainTop {
                 height: 60px;
-                background: #FFFFFF;
+                background: rgba(255,255,255,0.8);
                 box-shadow: 0 0 10px #CCCCCC;
                 position: fixed;
                 top: 0;
@@ -80,7 +85,7 @@ html {
                 right: 0;
                 z-index: 998;
                 .userInfo {
-                    border-top: rgb(59,84,136) 2px solid;
+                    border-top: rgb(59, 84, 136) 2px solid;
                     float: right;
                     margin-right: 20px;
                     padding: 0 10px;
@@ -96,10 +101,8 @@ html {
                         border-radius: 1000px;
                         margin-top: 9px;
                     }
-                    h4 {
-                    }
-                    a {
-                    }
+                    h4 {}
+                    a {}
                 }
             }
         }
@@ -108,13 +111,84 @@ html {
                 border-bottom: #DDDDDD 1px solid;
                 line-height: 40px;
                 padding: 0 20px;
+                font-size: 14px;
                 .more {
                     float: right;
                 }
             }
-            .panelCont {
-                
+            .panelCont {}
+        }
+        // 信息概览
+        .toBeDone {
+            ul {
+                padding: 20px;
+                overflow: hidden;
+                li {
+                    float: left;
+                    width: 25%;
+                    text-align: center;
+                    &:last-child {
+                        border-left: #DDDDDD 1px solid;
+                    }
+                    .number {
+                        display: block;
+                        color: rgb(22,124,245);
+                        line-height: 40px;
+                        font-size: 24px;
+                    }
+                    .img {
+                        img {
+                            width: 30px;
+                            height: 30px;
+                            display: block;
+                            border-radius: 1000px;
+                            margin: 5px auto;
+                        }
+                    }
+                }
             }
+        }
+        // 文章列表
+        .articleList {
+            padding: 10px 20px;
+            dl {
+                padding: 10px 0;
+                dt {
+                    line-height: 30px;
+                    .time {
+                        color: #888;
+                        float: right;
+                    }
+                }
+                dd {
+                    color: #888888;
+                    .more {
+                        display: block;
+                        text-align: right;
+                        color: #444444;
+                    }
+                }
+            }
+        }
+        // 疑难课程列表
+        .smallDifficultyList {
+            overflow: hidden;
+            padding: 10px;
+            dl {
+                float: left;
+                width: 50%;
+                padding: 10px;
+                dt {
+                    float: left;
+                    margin-right: 10px;
+                    img {
+                        display: block;
+                    }
+                }
+            }
+        }
+        .courseList {
+            
         }
     }
 }
