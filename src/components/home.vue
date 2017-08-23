@@ -25,7 +25,28 @@
 			<div class="paneBody">
 				<div class="panel">
 					<div class="panelCont">
-						sdf
+						<Row>
+							<Col span="4">col-12</Col>
+							<Col span="6">col-12</Col>
+							<Col span="14">
+								<div class="courseList">
+									<dl>
+										<dt>
+											<img src="https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=2003558117,1870941956&fm=85&s=7E914D855E61591F1AB155590300F091" />
+										</dt>
+										<dd>
+											<div class="fl">本课程暂无学生反馈信息</div>
+											<div class="fr">
+												<div class="forProgress">编辑已完成 88%</div>
+												<div class="forEdit">
+													<Button type="primary" size="small" long>编辑</Button>
+												</div>
+											</div>
+										</dd>
+									</dl>
+								</div>
+							</Col>
+						</Row>
 					</div>
 				</div>
 			</div>
@@ -51,94 +72,90 @@
 					</div>
 					<div class="panelCont">
 						<div class="smallDifficultyList">
-						<dl>
-							<dt>
+							<dl>
+								<dt>
 								<img src="https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=2003558117,1870941956&fm=85&s=7E914D855E61591F1AB155590300F091" />
 								<span class="import"></span>
 							</dt>
-							<dd>
-								<h4>牛顿第一定律</h4>
-								录制于2016-12-13 第一节
-								<div>
-									<ul>
-										<li>
-											<span style="width: 45%;"></span>
-											<span>22人未掌握</span>
-										</li>
-										<li>
-											<span style="width: 5%;"></span>
-											<span>6人已掌握</span>
-										</li>
-									</ul>
-								</div>
-							</dd>
-						</dl>
-						<dl>
-							<dt>
+								<dd>
+									<h4>牛顿第一定律</h4> 录制于2016-12-13 第一节
+									<div>
+										<ul>
+											<li>
+												<span style="width: 45%;"></span>
+												<span>22人未掌握</span>
+											</li>
+											<li>
+												<span style="width: 5%;"></span>
+												<span>6人已掌握</span>
+											</li>
+										</ul>
+									</div>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
 								<img src="https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=2003558117,1870941956&fm=85&s=7E914D855E61591F1AB155590300F091" />
 								<span class="import"></span>
 							</dt>
-							<dd>
-								<h4>牛顿第一定律</h4>
-								录制于2016-12-13 第一节
-								<div>
-									<ul>
-										<li>
-											<span style="width: 45%;"></span>
-											<span>22人未掌握</span>
-										</li>
-										<li>
-											<span style="width: 5%;"></span>
-											<span>6人已掌握</span>
-										</li>
-									</ul>
-								</div>
-							</dd>
-						</dl>
-						<dl>
-							<dt>
+								<dd>
+									<h4>牛顿第一定律</h4> 录制于2016-12-13 第一节
+									<div>
+										<ul>
+											<li>
+												<span style="width: 45%;"></span>
+												<span>22人未掌握</span>
+											</li>
+											<li>
+												<span style="width: 5%;"></span>
+												<span>6人已掌握</span>
+											</li>
+										</ul>
+									</div>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
 								<img src="https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=2003558117,1870941956&fm=85&s=7E914D855E61591F1AB155590300F091" />
 								<span class="import"></span>
 							</dt>
-							<dd>
-								<h4>牛顿第一定律</h4>
-								录制于2016-12-13 第一节
-								<div>
-									<ul>
-										<li>
-											<span style="width: 45%;"></span>
-											<span>22人未掌握</span>
-										</li>
-										<li>
-											<span style="width: 5%;"></span>
-											<span>6人已掌握</span>
-										</li>
-									</ul>
-								</div>
-							</dd>
-						</dl>
-						<dl>
-							<dt>
+								<dd>
+									<h4>牛顿第一定律</h4> 录制于2016-12-13 第一节
+									<div>
+										<ul>
+											<li>
+												<span style="width: 45%;"></span>
+												<span>22人未掌握</span>
+											</li>
+											<li>
+												<span style="width: 5%;"></span>
+												<span>6人已掌握</span>
+											</li>
+										</ul>
+									</div>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
 								<img src="https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=2003558117,1870941956&fm=85&s=7E914D855E61591F1AB155590300F091" />
 								<span class="import"></span>
 							</dt>
-							<dd>
-								<h4>牛顿第一定律</h4>
-								录制于2016-12-13 第一节
-								<div>
-									<ul>
-										<li>
-											<span style="width: 45%;"></span>
-											<span>22人未掌握</span>
-										</li>
-										<li>
-											<span style="width: 5%;"></span>
-											<span>6人已掌握</span>
-										</li>
-									</ul>
-								</div>
-							</dd>
-						</dl>
+								<dd>
+									<h4>牛顿第一定律</h4> 录制于2016-12-13 第一节
+									<div>
+										<ul>
+											<li>
+												<span style="width: 45%;"></span>
+												<span>22人未掌握</span>
+											</li>
+											<li>
+												<span style="width: 5%;"></span>
+												<span>6人已掌握</span>
+											</li>
+										</ul>
+									</div>
+								</dd>
+							</dl>
 						</div>
 					</div>
 				</div>
@@ -151,26 +168,26 @@
 					</div>
 					<div class="panelCont">
 						<div class="articleList">
-						<dl>
-							<dt>
+							<dl>
+								<dt>
 								我在《牛顿第一定律》课后@了孙淼、郑晓静、引申等6位同学。
 								<span class="time">2016-12-25</span>
 							</dt>
-							<dd>
-								内容：卷子单选第八题你们几个错了，附件中是你们错题的知识解析，你们先看下，如果还有疑问明天来找我。
-								<span class="more">查看</span>
-							</dd>
-						</dl>
-						<dl>
-							<dt>
+								<dd>
+									内容：卷子单选第八题你们几个错了，附件中是你们错题的知识解析，你们先看下，如果还有疑问明天来找我。
+									<span class="more">查看</span>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
 								我在《动能定理》课后@了孙淼、郑晓静等8位同学。
 								<span class="time">2016-12-25</span>
 							</dt>
-							<dd>
-								内容：卷子单选第八题你们几个错了，附件中是你们错题的知识解析，你们先看下，如果还有疑问明天来找我。
-								<span class="more">查看</span>
-							</dd>
-						</dl>
+								<dd>
+									内容：卷子单选第八题你们几个错了，附件中是你们错题的知识解析，你们先看下，如果还有疑问明天来找我。
+									<span class="more">查看</span>
+								</dd>
+							</dl>
 						</div>
 					</div>
 				</div>
