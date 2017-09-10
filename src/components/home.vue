@@ -11,7 +11,7 @@
 			</Col>
 		</Row>
 		<Row :gutter="20">
-			<Col span="12">
+			<Col span="14">
 			<div class="paneBody">
 				<div class="toBeDone">
 					<ul>
@@ -26,32 +26,121 @@
 				<div class="panel">
 					<div class="panelCont">
 						<Row>
-							<Col span="4">col-12</Col>
-							<Col span="6">col-12</Col>
-							<Col span="14">
-								<div class="courseList">
-									<dl>
-										<dt>
-											<img src="https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=2003558117,1870941956&fm=85&s=7E914D855E61591F1AB155590300F091" />
+							<Col span="3">
+							<div class="steps-vertical">
+								<ul>
+									<li>
+										<span>以前</span>
+										<i></i>
+										<div class="line"></div>
+									</li>
+									<li>
+										<span>昨天</span>
+										<i></i>
+										<div class="line"></div>
+									</li>
+									<li>
+										<span>昨天</span>
+										<i></i>
+										<div class="line"></div>
+									</li>
+									<li>
+										<span>今天</span>
+										<i></i>
+										<div class="line"></div>
+									</li>
+								</ul>
+							</div>
+							</Col>
+							<Col span="21">
+							<div class="courseList">
+								<Row>
+									<Col span="7" offset="1">
+									<div class="courseTitle">
+										<h3>何敏老师的物理课</h3>
+										<span>录制于 2017-02-13 第五节</span>
+										<span>人教版：
+										<Select v-model="model1" style="width:200px">
+											<Option v-for="item in cityList" :value="item.value" :key="item.value">{{ item.label }}</Option>
+										</Select>
+									</span>
+										<span>
+										<Icon type="help-circled"></Icon>
+									</span>
+										<Button type="primary" size="small" long>一键编辑</Button>
+									</div>
+									</Col>
+									<Col span="16">
+									<div class="courseCont">
+										<dl>
+											<dt>
+											<img src="../../static/images/VCG41143176157.jpg" />
 										</dt>
-										<dd>
-											<div class="fl">本课程暂无学生反馈信息</div>
-											<div class="fr">
-												<div class="forProgress">编辑已完成 88%</div>
-												<div class="forEdit">
-													<Button type="primary" size="small" long>编辑</Button>
+											<dd>
+												<div class="fl">
+													<span class="wanting">本课程暂无学生反馈信息</span>
 												</div>
-											</div>
-										</dd>
-									</dl>
+												<div class="fr">
+													<div class="forProgress">编辑已完成 88%</div>
+													<div class="forEdit">
+														<Button type="primary" size="small" long>编辑</Button>
+													</div>
+												</div>
+											</dd>
+										</dl>
+									</div>
+									</Col>
+								</Row>
+							</div>
+							<Row>
+								<div class="courseList">
+									<Col span="7" offset="1">
+									<div class="courseTitle">
+										<h3>动能定理</h3>
+										<span>录制于 2017-02-13 第五节</span>
+									</div>
+									</Col>
+									<Col span="16">
+									<div class="courseCont">
+										<dl>
+											<dt>
+											<img src="../../static/images/VCG41143176157.jpg" />
+										</dt>
+											<dd>
+												<div class="fl">
+													<div>
+														<ul>
+															<li>
+																<span><i class="seen" style="width: 100%;"></i></span>28人已看过该视频
+															</li>
+															<li>
+																<span><i class="grasp" style="width: 30%;"></i></span>22人未掌握
+															</li>
+															<li>
+																<span><i class="nograsp" style="width: 10%;"></i></span>6人已掌握
+															</li>
+														</ul>
+													</div>
+												</div>
+												<div class="fr">
+													<div class="forProgress">编辑已完成 100%</div>
+													<div class="forEdit">
+														<Button type="primary" size="small" long>编辑</Button>
+													</div>
+												</div>
+											</dd>
+										</dl>
+									</div>
+									</Col>
 								</div>
+							</Row>
 							</Col>
 						</Row>
 					</div>
 				</div>
 			</div>
 			</Col>
-			<Col span="12">
+			<Col span="10">
 			<div class="paneBody">
 				<div class="panel">
 					<div class="panelTitle">
@@ -74,7 +163,7 @@
 						<div class="smallDifficultyList">
 							<dl>
 								<dt>
-								<img src="https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=2003558117,1870941956&fm=85&s=7E914D855E61591F1AB155590300F091" />
+								<img src="../../static/images/VCG41143176157.jpg" />
 								<span class="import"></span>
 							</dt>
 								<dd>
@@ -95,7 +184,7 @@
 							</dl>
 							<dl>
 								<dt>
-								<img src="https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=2003558117,1870941956&fm=85&s=7E914D855E61591F1AB155590300F091" />
+								<img src="../../static/images/VCG41143176157.jpg" />
 								<span class="import"></span>
 							</dt>
 								<dd>
@@ -116,7 +205,7 @@
 							</dl>
 							<dl>
 								<dt>
-								<img src="https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=2003558117,1870941956&fm=85&s=7E914D855E61591F1AB155590300F091" />
+								<img src="../../static/images/VCG41143176157.jpg" />
 								<span class="import"></span>
 							</dt>
 								<dd>
@@ -137,7 +226,7 @@
 							</dl>
 							<dl>
 								<dt>
-								<img src="https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=2003558117,1870941956&fm=85&s=7E914D855E61591F1AB155590300F091" />
+								<img src="../../static/images/VCG41143176157.jpg" />
 								<span class="import"></span>
 							</dt>
 								<dd>
@@ -231,7 +320,32 @@
 						month: 'Mar',
 						temperature: 2.5
 					}
-				]
+				],
+				model1: '',
+				cityList: [{
+                        value: 'beijing',
+                        label: '北京市'
+                    },
+                    {
+                        value: 'shanghai',
+                        label: '上海市'
+                    },
+                    {
+                        value: 'shenzhen',
+                        label: '深圳市'
+                    },
+                    {
+                        value: 'hangzhou',
+                        label: '杭州市'
+                    },
+                    {
+                        value: 'nanjing',
+                        label: '南京市'
+                    },
+                    {
+                        value: 'chongqing',
+                        label: '重庆市'
+                    }],
 			}
 		},
 		methods: {

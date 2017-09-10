@@ -73,10 +73,17 @@
 			},
 			ok() {
 				this.$Message.success('退出成功');
-				localStorage.setItem("userInfo", "");
+				localStorage.removeItem("userInfo")
 				this.$router.push({
 					path: 'login'
 				});
+			}
+		},
+		mounted: function() {
+			if(!localStorage.getItem("userInfo")) {
+				this.$router.push({
+					path: 'login'
+				})
 			}
 		}
 	}
