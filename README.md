@@ -1,6 +1,8 @@
 # kimi_teacher
+# 七米课堂教师PC端
 
-> A Vue.js project
+> 来自站酷dadaniya11的设计，感觉很漂亮、清爽，就希望用业余时间把这一套管理后台的前端做出来。
+> 当然UI版权归原作者所有。
 
 ## Build Setup
 
